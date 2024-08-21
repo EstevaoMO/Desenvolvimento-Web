@@ -1,17 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Verdade</title>
 </head>
-<body>
-    <script>
-        function teste(){
-            document.write('Apenas um teste');
-        }
-    </script>
-    <button onclick="teste()"> Aperte Aqui. </button>
+
+<style>
+    div.main{
+        background-color: wheat;
+        margin: 28px;
+        width: 80%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        
+    }
+
+    h1{
+        width: 100%;
+        padding-top: 10px;
+        margin-bottom: 5px;
+        text-align: center;
+    }
     
+    p{
+        margin-left: 20px;
+        font-size: 18px;
+    }
+
+    button{
+        text-align: center;
+        padding: 3px;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+    
+    div.button{
+        width: 100%;
+        margin-left: calc(50% - 28px);
+        padding: 10px;
+    }
+
+</style>
+
+<body>
+    <div class="main">
+    
+    <h1>DESEJA DESCOBRIR A VERDADE?</h1>
+    <br>
+    <p>Se você deseja descobrir a maior verdade que existe, clique no botão abaixo. </p>
+    
+    <script>
+        function mostrar_verdade(){document.write('Jesus é o caminho, a verdade e a vida.');}
+    </script>
+    
+    <div class="button">
+
+        <button onclick="mostrar_verdade()"><strong> DESCUBRA! </strong></button>
+    </div>
+
+    </div>
+
 </body>
+
 </html>
