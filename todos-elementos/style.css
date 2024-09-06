@@ -1,0 +1,157 @@
+section#barra-superior{
+    background-color: #395DFA;
+    padding: 3px;
+    margin: 0px auto;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    padding: 3px;
+    margin: 0px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #484557;
+}
+
+a#titulo{
+    text-decoration: none;
+}
+
+h2{
+    color: rgb(251, 251, 251);
+    text-decoration: underline;
+    font-family: sans-serif;
+    text-align: end;
+    margin: 15px;
+}
+
+section#conteudo-principal{
+    display: flex;
+    padding: 5px;
+    margin: 20px;
+}
+
+div#caixa-artigo{
+    margin: 10px auto;
+    width: 80%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: #c5c2d3 1px 1px 1px 1px;
+}
+
+section#aba-direita{
+    padding: 10px;
+}
+
+section#sobre-autor{
+    padding: 20px;
+}
+
+div#informacoes-autor{
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+}
+
+img{
+    margin: auto;
+    border-radius: 100px;
+    width: 100px;
+}
+
+p#texto-autor{
+    margin: 10px;
+}
+
+section#veja-tambem{
+    margin: 20px;
+    padding: 10px;
+}
+
+h4{
+    font-size: 20px;
+    margin: 5px;
+}
+
+a#bibleproject{
+    color: #2ea5c0;
+}
+
+h3{
+    font-size: 40px;
+    margin: 0px;
+}
+
+h5{
+    font-size: 12px;
+    margin: 0px;
+}
+
+article{
+    margin-top: 20px;
+    text-indent: 35px;
+    text-align: justify;
+}
+
+p.container-texto{
+    margin: 2px 0px;
+}
+
+span.perguntas-retoricas{
+    font-weight: 550;
+    margin: 10px 0px;
+}
+
+div.versiculo{
+    padding: 10px;
+    margin: 5px auto;
+    width: 90%;
+}
+
+p.texto-versiculo{
+    font-style: italic;
+    font-size: 18px;
+    text-align: justify;
+}
+
+span.numero-versiculo{
+    font-size: 10px;
+    margin: 0px;
+    text-align: end;
+}
+
+p.referencia-versiculo{
+    text-align: end;
+    font-size: 12px;
+}
+
+div#resumo{
+    margin-top: 30px;
+}
+
+section#identificacao{
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+form{
+    margin: 10px;
+    padding: 10px;
+}
+
+section#recomendacoes{
+    margin: 10px;
+    padding: 10px;
+}
+
+video{
+    margin-left: 20px;
+}
+
+audio{
+    margin: 20px;
+}
