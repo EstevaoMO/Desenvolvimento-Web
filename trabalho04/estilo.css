@@ -1,0 +1,47 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: groove 5px rgb(219, 218, 218);
+    margin: 80px;
+    padding: 20px;
+}
+
+h1{
+    color: #c60101;
+    font-size: 2.2em;
+    border-bottom: dotted 5px rgb(159, 22, 22);
+}
+
+div.profissao{
+    color: rgb(87, 87, 87);
+    font-weight: 600;
+}
+
+p{
+    font-family: serif;
+    text-align: justify;
+    font-weight: 400;
+}
+
+h2{
+    font-style: italic;
+}
+
+ul{
+    border: solid 3px #c60101;
+    margin: 10px;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #fb6542
+}
+
+a:hover{
+    font-size: 17px;
+    text-decoration: underline;
+}
