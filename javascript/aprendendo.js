@@ -20,7 +20,7 @@ console.log(pessoa.nome);
 pessoa.curso = 'Ciência de Dados';
 console.log(pessoa.curso);
 
-// Funções
+// Functions
 
 function soma(a, b){
   return a+b;
